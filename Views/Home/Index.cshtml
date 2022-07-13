@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MMS.styles.css" asp-append-version="true" />
+</head>
+
+<body style="font-family:'HarmonyOS Sans'">
+    <div class="container justify-content-center ">
+        <div class="row d-flex justify-content-center ">
+
+            <div class="col-md-2 col-sm-4 d-flex my-2 justify-content-center ">
+                <img src="/Files/appul.svg" class="align-items-center " style="width:150px"/>
+            </div>
+
+            <div class="col-md-4 col-sm-3 mx-2 align-content-center">
+
+                <h2 class="text-center">Login</h2>
+
+                <div class="mb-3">
+                    <label for="Email" class="form-label">E-Mail</label>
+                    <input class="form-control" type="email" id="Email" name="Email" placeholder="Enter your Email address" required />
+                </div>
+
+                <div class="mb-3">
+                    <label for="Password" class="form-label">Password</label>
+                    <input class="form-control" type="password" id="Password" name="Password" placeholder="Enter your password" required />
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="Terms">
+                    <label class="form-check-label" for="Terms">Terms of Service</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
